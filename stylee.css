@@ -1,0 +1,92 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Big Shoulders Text';
+    
+
+    background: url(img/image.png) no-repeat;
+    background-size: cover;
+}
+
+.main h1 {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    margin: 10px;
+    text-shadow: 0px 0px 30px rgb(0, 0, 0);; 
+}
+.main{
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.contact-form {
+    background-color: #00000072;
+    padding: 20px;
+    border: 20px;
+    border-radius: 15px;
+    width: 470px;
+    margin: 50px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.388);
+
+}
+.lol{
+    margin-bottom: 20px;
+    font-size:15px;
+    font-family: 'Alegreya Sans';
+
+    
+    
+}
+.lol h1{
+    margin-bottom: 4px;
+    color: aliceblue;
+}
+.lol h2{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+.contact-form form input,
+.contact-form form textarea,
+.contact-form form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(209, 209, 209);
+}
+
+.contact-form form input::placeholder,
+.contact-form form textarea::placeholder {
+    color: #000000;
+}
+
+.contact-form form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.contact-form form button {
+    background-color: #8a8a8a;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form form button:hover {
+    background-color: #c0c0c0;
+}
+
